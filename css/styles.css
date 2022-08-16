@@ -8,12 +8,10 @@ img {
     display: block;
 }
 .body {
-    font-family: 'Roboto''Raleway', sans-seri;
-    color: #212121;
-}
+    font-family: 'Roboto', sans-seri;
+    }
 .logo {
-    font-family: 'Raleway''Roboto',
-        sans-seri;
+    font-family: 'Raleway', sans-seri;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -25,8 +23,6 @@ img {
     color: #2196F3;
 }
 .menu-link {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.33;
@@ -38,8 +34,6 @@ img {
     color: #2196F3;
 }
 .menu-link-studio {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -48,8 +42,6 @@ img {
     color: #2196F3;
 }
 .menu-link-portfolio {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -57,8 +49,6 @@ img {
     color: #2196F3;
 }
 .contack-heder {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -73,8 +63,6 @@ img {
     background: #2F303A;
 }
 .post {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -84,8 +72,6 @@ img {
     color: #FFFFFF;
 }
 .modal-open-btn {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.86;
@@ -93,6 +79,7 @@ img {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
     color: #fff;
     background: #2196F3;
 }
@@ -101,8 +88,6 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .section-title {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -111,8 +96,6 @@ img {
     color: #212121;
 }
 .paragraph-section {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -121,8 +104,6 @@ img {
     color: #212121;
 }
 .content-section {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -130,8 +111,6 @@ img {
     color: #757575;
 }
 .name-employee {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -140,8 +119,6 @@ img {
     color: #212121;
 }
 .job-title {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -153,8 +130,7 @@ img {
     background: #2F303A;
 }
 .logo-footer {
-    font-family: 'Raleway''Roboto',
-        sans-seri;
+    font-family: 'Raleway', sans-seri;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -163,8 +139,6 @@ img {
     color: #fff;
 }
 .address {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -172,9 +146,12 @@ img {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+.address:hover
+.address:focus {
+    color: #FFFFFF;
+}
+
 .contact-footer {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -187,8 +164,6 @@ img {
     color: #2196F3
 }
 .portfolio-open-btn {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -197,16 +172,14 @@ img {
     cursor: pointer;
     color: #212121;
     background: #F5F4FA;
+    border-radius: 4px;
 }
 .portfolio-open-btn:hover,
 .portfolio-open-btn:focus {
     color: #FFFFFF;
     background: #2196F3;
-    border-radius: 4px;
 }
 .name-group {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -214,8 +187,6 @@ img {
     color: #212121;
 }
 .title-group {
-    font-family: 'Roboto''Raleway',
-        sans-seri;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
