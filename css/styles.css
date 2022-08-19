@@ -1,3 +1,25 @@
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+button {
+    cursor: pointer;
+}
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .link {
     text-decoration: none;
 }
@@ -60,6 +82,7 @@ body {
     color: #2196F3;
 }
 .section-post {
+    width: 1600px;
     background: #2F303A;
 }
 .post {
@@ -79,7 +102,6 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    cursor: pointer;
     color: #fff;
     background: #2196F3;
 }
@@ -126,7 +148,8 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
-.section-footer {
+.page-footer {
+    width: 1600px;
     background: #2F303A;
 }
 .logo-footer {
@@ -168,7 +191,6 @@ body {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    cursor: pointer;
     color: #212121;
     background: #F5F4FA;
     border-radius: 4px;
