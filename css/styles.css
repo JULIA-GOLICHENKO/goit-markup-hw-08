@@ -22,6 +22,7 @@ button {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .link {
     text-decoration: none;
 }
@@ -34,6 +35,17 @@ img {
 body {
     font-family: 'Roboto', sans-seri;
 }
+/*--header--*/
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+.top-nav {
+    display: flex;
+    align-items: center;
+}
+  
 .logo {
     font-family: 'Raleway', sans-seri;
     font-style: normal;
@@ -72,17 +84,23 @@ body {
     letter-spacing: 0.02em;
     color: #2196F3;
 }
-.contack-heder {
+.contack-header {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
-.contack-heder:hover,
-.contack-heder:focus {
+.contack-header:hover,
+.contack-header:focus {
     color: #2196F3;
 }
+.page-contact-header {
+    display: flex;
+    align-items: center;
+}
+/*---main----*/
+
 .section-post {
     width: 1600px;
     background: #2F303A;
@@ -95,6 +113,17 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.page-features,
+.page-foto,
+.page-team,
+.page-portfolio-btn {
+    display: flex;
+    align-items: center;
 }
 .modal-open-btn {
     font-weight: 700;
@@ -150,6 +179,8 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
+/*---footer---*/
+
 .page-footer {
     width: 1600px;
     background: #2F303A;
