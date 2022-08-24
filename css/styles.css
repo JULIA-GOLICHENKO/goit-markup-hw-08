@@ -37,9 +37,9 @@ body {
 }
 /*--header--*/
 
-.top-header-portfolio {
+
+.top-header {
     border-bottom: 1px solid#ECECEC;
-    margin-bottom: 94px;
 }
 
 .top-line {
@@ -72,8 +72,6 @@ body {
     display: flex;
     align-items: center;
     column-gap: 50px;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .menu-link {
     font-weight: 500;
@@ -81,6 +79,8 @@ body {
     line-height: 1.33;
     letter-spacing: 0.02em;
     color: #212121;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .menu-link:hover,
@@ -94,6 +94,8 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #2196F3;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .menu-link-portfolio {
     font-weight: 500;
@@ -101,6 +103,8 @@ body {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #2196F3;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .contack-header {
     font-weight: 500;
@@ -125,7 +129,6 @@ body {
 
 /*---sections---*/
 .section {
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 .section-title {
@@ -139,7 +142,10 @@ body {
     margin-right: auto;
     margin-bottom: 50px;
 }
-
+.images {
+    max-width: 100%;
+    height: auto;
+}
 /*---section post---*/
 
 .section-post {
@@ -209,8 +215,6 @@ body {
 
 .foto {
     flex-basis: calc((100% - 60px) / 3);
-    max-width: 100%;
-    height: auto;
 }
 .page-foto {
     display: flex;
@@ -219,13 +223,16 @@ body {
 }
 
 /*---section team---*/
+.section-our-team {
+    background: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .team {
     flex-basis: calc((100% - 90px) / 4);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    max-width: 100%;
-    height: auto;
-    background: #F5F4FA;
+    background:#fff;
 }
 .page-team {
     display: flex;
@@ -268,6 +275,7 @@ body {
     letter-spacing: 0.03em;
     color: #fff;
     margin-bottom: 20px;
+    display: inline-block
 }
 .address {
     margin-bottom: 9px;
@@ -299,7 +307,8 @@ body {
 /*---page portfolio---*/
 
 .section-portfolio {
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .page-portfolio-btn {
     display: flex;
@@ -316,8 +325,8 @@ body {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     padding: 6px 25px 6px 25px;
-    background: #2196F3;
     border-radius: 4px;
+    border-color: transparent;
     box-shadow: 0px3px1pxrgba(0, 0, 0, 0.1), 0px1px2pxrgba(0, 0, 0, 0.08), 0px2px2pxrgba(0, 0, 0, 0.12);
 }
 .portfolio-open-btn {
@@ -330,17 +339,16 @@ body {
     padding: 6px 22px 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
+    border-color: transparent;
 }
-.portfolio-open-btn:hover,
-.portfolio-open-btn:focus {
+.btn:hover,
+.btn:focus {
     color: #FFFFFF;
     background: #2196F3;
 }
 .page-project {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
-    height: auto;
 }
 
 .frame {
