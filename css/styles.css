@@ -128,9 +128,7 @@ body {
 /*---main----*/
 
 /*---sections---*/
-.section {
-    padding-bottom: 94px;
-}
+
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -186,13 +184,17 @@ body {
 
 /*---section features---*/
 
+.section-features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .paragraph-features {
     flex-basis: calc((100% - 90px) / 4);
 }
 .page-features {
     display: flex;
-    align-items: center;
     column-gap: 30px;
+    padding-top: 0;
 }
 .paragraph-section {
     font-weight: 700;
