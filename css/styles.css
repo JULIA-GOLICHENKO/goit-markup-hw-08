@@ -217,6 +217,7 @@ body {
 
 .foto {
     flex-basis: calc((100% - 60px) / 3);
+    padding-bottom: 94px;
 }
 .page-foto {
     display: flex;
