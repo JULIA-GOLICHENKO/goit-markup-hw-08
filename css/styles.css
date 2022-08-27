@@ -37,22 +37,18 @@ body {
 }
 /*--header--*/
 
-
 .top-header {
     border-bottom: 1px solid#ECECEC;
 }
-
 .top-line {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .top-nav {
     display: flex;
     align-items: center;
 }
-  
 .logo {
     font-family: 'Raleway', sans-seri;
     font-style: normal;
@@ -120,6 +116,20 @@ body {
 .contack-header:focus {
     color: #2196F3;
 }
+.icon-mail {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    padding-bottom: 0;
+    cursor: pointer;
+}
+.icon-tel {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    padding-bottom: 0;
+    cursor: pointer;
+}
 .page-contact-header {
     display: flex;
     align-items: center;
@@ -147,9 +157,19 @@ body {
 /*---section post---*/
 
 .section-post {
-    background: #2F303A;
+    background-color: #2F303A;
     padding-top: 200px;
     padding-bottom: 200px;
+}
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/Img-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .post {
     font-weight: 900;
@@ -190,6 +210,28 @@ body {
 }
 .paragraph-features {
     flex-basis: calc((100% - 90px) / 4);
+}
+.paragraph-features::before {
+    display: block;
+    height: 120px;
+    background-color: #F5F4FA;
+    content: "" ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+.icon-antenna::before {
+    background-image: url(../images/SVG-спрайт/antenna\ 1.svg);
+}
+.icon-clock::before {
+    background-image: url(../images/SVG-спрайт/clock\ 1.svg);
+}
+.scon-diagram::before {
+    background-image: url(../images/SVG-спрайт/diagram\ 1.svg);
+}
+.icon-astronaut::before {
+    background-image: url(../images/SVG-спрайт/astronaut\ 1.svg);
 }
 .page-features {
     display: flex;
@@ -241,6 +283,7 @@ body {
     display: flex;
     align-items: center;
     column-gap: 30px;
+    outline: 1px solid black;
 }
 .name-employee {
     font-weight: 500;
@@ -251,6 +294,7 @@ body {
     color: #212121;
     padding-top: 30px;
     margin-bottom: 10px;
+    outline: 1px solid black;
 }
 .job-title {
     font-weight: 400;
@@ -260,7 +304,72 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
     padding-bottom: 30px;
+    margin-bottom: 16px;
+    outline: 1px solid black;
 }
+.social-links {
+    width: 206px;
+    height: 44px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0 auto;
+    outline: 1px solid black;
+}
+.links {
+    display: inline-block;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid black;
+}
+.link-svg {
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-size: 20px;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+}
+.link-svg:hover,
+.link-svg:focus {
+    background: #2196F3;
+    border-radius: 50% ;
+    fill: #FFFFFF;
+}
+
+
+/*----customers---*/
+
+.regular-customers {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.customers {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.client {
+    border: 1px solid rgba(175, 177, 184, 1) ;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.client-logo {
+    display: inline-flex;
+    padding: 16px 32px 16px 32px;
+    width: 170px;
+    height: 92px;
+    background-size:contain;
+    justify-content: center;
+    align-items: center
+}
+.client:hover,
+.client:focus {
+    fill: #2196F3;
+}
+
 /*---footer---*/
 
 .page-footer {
