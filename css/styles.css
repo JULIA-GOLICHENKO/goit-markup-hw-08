@@ -110,7 +110,6 @@ body {
     color: #757575;
     padding-top: 32px;
     padding-bottom: 32px;
-
 }
 .contack-header:hover,
 .contack-header:focus {
@@ -122,6 +121,7 @@ body {
     margin-right: 10px;
     padding-bottom: 0;
     cursor: pointer;
+    fill: #757575;
 }
 .icon-tel {
     width: 10px;
@@ -129,6 +129,15 @@ body {
     margin-right: 10px;
     padding-bottom: 0;
     cursor: pointer;
+    fill: #757575;
+}
+.icon-mail:hover,
+.icon-mail:focus {
+    fill: #2196F3;
+}
+.icon-tel:hover,
+.icon-tel:focus {
+    fill: #2196F3;
 }
 .page-contact-header {
     display: flex;
@@ -283,7 +292,7 @@ body {
     display: flex;
     align-items: center;
     column-gap: 30px;
-    outline: 1px solid black;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .name-employee {
     font-weight: 500;
@@ -294,7 +303,6 @@ body {
     color: #212121;
     padding-top: 30px;
     margin-bottom: 10px;
-    outline: 1px solid black;
 }
 .job-title {
     font-weight: 400;
@@ -305,7 +313,6 @@ body {
     color: #757575;
     padding-bottom: 30px;
     margin-bottom: 16px;
-    outline: 1px solid black;
 }
 .social-links {
     display: flex;
@@ -317,27 +324,32 @@ body {
     margin-left: auto;
     margin-right: auto;
     gap: 10px;
-    outline: 1px solid black;
+}
+.links-list {
+    display: inline-block;
 }
 .links {
-    display: inline-block;
-    
-    outline: 1px solid black;
-}
-.link-svg {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    outline: 1px solid black;
+    fill: #AFB1B8;
 }
-.link-svg:hover,
-.link-svg:focus {
+.link-svg {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+.links:hover,
+.links:focus {
     background-color: #2196F3;
 } 
-
+.link-svg:hover,
+.link-svg:focus {
+    fill: white;
+}
 
 /*----customers---*/
 
@@ -351,34 +363,45 @@ body {
     column-gap: 30px;
 }
 .client {
-    border: 1px solid rgba(175, 177, 184, 1) ;
+    border: 1px solid rgba(175, 177, 184, 1);
     border-radius: 4px;
     cursor: pointer;
 }
 .client-links {
     display: inline-flex;
+    justify-content: center;
     padding: 16px 32px 16px 32px;
     width: 170px;
     height: 92px;
-    color: #AFB1B8;;
+    fill: #AFB1B8;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     
 }
-.client-links .client-logo:hover,
-.client-links .client-logo:focus {
+.client-links:hover,
+.client-links:focus {
     border: 1px solid #2196F3;
-    color: var(.blu);
+}
+.client-logo:hover, 
+.client-logo:focus {
+    fill: #2196F3;
 }
 
 /*---footer---*/
 
 .page-footer {
+    display: flex;
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
 }
-
+.container-footer {
+    display: flex;
+    align-items: flex-start;
+}
+.footer-list {
+    margin-right: 70px;
+}
 .logo-footer {
     font-family: 'Raleway', sans-seri;
     font-style: normal;
@@ -388,7 +411,7 @@ body {
     letter-spacing: 0.03em;
     color: #fff;
     margin-bottom: 20px;
-    display: inline-block
+    display: inline-block;
 }
 .address {
     margin-bottom: 9px;
@@ -417,6 +440,36 @@ body {
 .contact-footer:focus {
     color: #2196F3
 }
+.footer-social-links {
+    flex-direction: column;
+    width: 206px;
+    height: 80px;
+}
+.social-links-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 206px;
+    height: 44px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+}
+.footer-link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.link-svg-footer {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
 /*---page portfolio---*/
 
 .section-portfolio {
@@ -440,7 +493,6 @@ body {
     padding: 6px 25px 6px 25px;
     border-radius: 4px;
     border-color: transparent;
-    box-shadow: 0px3px1pxrgba(0, 0, 0, 0.1), 0px1px2pxrgba(0, 0, 0, 0.08), 0px2px2pxrgba(0, 0, 0, 0.12);
 }
 .portfolio-open-btn {
     font-weight: 500;
@@ -458,6 +510,12 @@ body {
 .btn:focus {
     color: #FFFFFF;
     background: #2196F3;
+}
+.btn-all:hover,
+.btn-all:focus {
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .page-project {
     display: flex;
@@ -480,6 +538,7 @@ body {
 }
 .project {
     flex-basis: calc((100% - 60px) / 3);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .name-group {
     font-weight: 700;

@@ -38,17 +38,21 @@
         </nav>
         <ul class="page-contact-header list">
           <li class="contact">
-            <svg class="icon-mail">
-              <use href="./images/SVG-спрайт/symbol-defs.svg#icon-envelope-hover-1"></use>
-            </svg>
+            <a class="contact-link link" href="">
+              <svg class="icon-mail">
+                <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-envelope"></use>
+              </svg>
+            </a>
             <a class="contack-header link" href="mailoto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li class="contact">
-            <svg class="icon-tel">
-              <use href="./images/SVG-спрайт/symbol-defs.svg#icon-smartphone-1"></use>
-            </svg>
+            <a class="contact-link link" href="">
+              <svg class="icon-tel">
+                <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-smartphone-1"></use>
+              </svg>
+            </a>
             <a class="contack-header link" href="tel:+380961111111"
               >+38 096 111 11 11</a
             >
@@ -63,7 +67,7 @@
           <ul class="page-portfolio-btn list">
             <li>
               <button
-                class="portfolio-open-btn-all btn portfolio-open-btn"
+                class="portfolio-open-btn-all btn-all portfolio-open-btn"
                 type="button"
               >
                 Усі
@@ -95,7 +99,7 @@
             <li class="project">
               <img
                 class="images"
-                src="./images/portfolio/img 1.jpg"
+                src="./images/portfolio/img1.jpg"
                 alt="проект перший"
                 width="370"
                 height="294"
@@ -108,7 +112,7 @@
             <li class="project">
               <img
                 class="images"
-                src="./images/portfolio/img 2.jpg"
+                src="./images/portfolio/img2.jpg"
                 alt="проект другий"
                 width="370"
                 height="294"
@@ -121,7 +125,7 @@
             <li class="project">
               <img
                 class="images"
-                src="./images/portfolio/img 3.jpg"
+                src="./images/portfolio/img3.jpg"
                 alt="проект третій"
                 width="370"
                 height="294"
@@ -134,7 +138,7 @@
             <li class="project">
               <img
                 class="images"
-                src="./images/portfolio/img 4.jpg"
+                src="./images/portfolio/img4.jpg"
                 alt="проект четвертий"
                 width="370"
                 height="294"
@@ -147,7 +151,7 @@
             <li class="project">
               <img
                 class="images"
-                src="./images/portfolio/img 5.jpg"
+                src="./images/portfolio/img5.jpg"
                 alt="проект пятий"
                 width="370"
                 height="294"
@@ -160,7 +164,7 @@
             <li class="project">
               <img
                 class="images"
-                src="./images/portfolio/img 6.jpg"
+                src="./images/portfolio/img6.jpg"
                 alt="проект шостий"
                 width="370"
                 height="294"
@@ -173,7 +177,7 @@
             <li class="project">
               <img
                 class="images"
-                src="./images/portfolio/img 7.jpg"
+                src="./images/portfolio/img7.jpg"
                 alt="проект сьомий"
                 width="370"
                 height="294"
@@ -186,7 +190,7 @@
             <li class="project">
               <img
                 class="images"
-                src="./images/portfolio/img 8.jpg"
+                src="./images/portfolio/img8.jpg"
                 alt="проект восьмий"
                 width="370"
                 height="294"
@@ -199,7 +203,7 @@
             <li class="project">
               <img
                 class="images"
-                src="./images/portfolio/img 9.jpg"
+                src="./images/portfolio/img9.jpg"
                 alt="проект девятий"
                 width="370"
                 height="294"
@@ -215,33 +219,69 @@
     </main>
     <footer class="page-footer">
       <div class="container">
-        <h2 hidden class="section-title">Контакти</h2>
-        <a class="logo-footer link" href="./index.html"
-          ><span class="blu">Web</span>Studio</a
-        >
-        <address>
-          <ul class="list">
-            <li class="address">
-              <a
-                class="contact-address link"
-                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li class="address">
-              <a class="contact-footer link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="contact-footer link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <div class="container-footer">
+          <div class="footer-list">
+            <h2 hidden class="section-title">Контакти</h2>
+            <a class="logo-footer link" href="./index.html"
+              ><span class="blu">Web</span>Studio</a
+            >
+            <address>
+              <ul class="list">
+                <li class="address">
+                  <a
+                    class="contact-address link"
+                    href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    >м. Київ, пр-т Лесі Українки, 26</a
+                  >
+                </li>
+                <li class="address">
+                  <a class="contact-footer link" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li>
+                  <a class="contact-footer link" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-social-links">
+            <h3 class="footer-link">приєднуйтесь</h3>
+            <ul class="social-links-footer list">
+              <li class="links-list">
+                <a href="#" class="links">
+                  <svg lang="en" aria-label="instagram" class="link-svg">
+                    <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-instagram-2-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="links-list">
+                <a href="#" class="links">
+                  <svg class="link-svg">
+                    <use lang="en" aria-label="twitter" href="./images/SVG-спрайт/symbol-defs (4).svg#icon-twitter-1-2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="links-list">
+                <a href="#" class="links">
+                  <svg lang="en" aria-label="facebook" class="link-svg">
+                  <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-facebook-1-2"></use>
+                </svg></a>
+              </li>
+              <li class="links-list">
+                <a href="#" class="links" >
+                  <svg lang="en" aria-label="linkedin" class="link-svg">
+                    <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-linkedin-1-2"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
