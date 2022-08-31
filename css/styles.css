@@ -104,12 +104,12 @@ body {
 }
 .contack-header {
     display: flex;
-    align-items: center
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;;
+    color: #757575;
     fill: #757575;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -117,7 +117,7 @@ body {
 .contack-header:hover,
 .contack-header:focus {
     color: #2196F3;
-    fill: #2196F3
+    fill: #2196F3;
 }
 .icon-mail {
     width: 16px;
@@ -265,11 +265,31 @@ body {
 .foto {
     flex-basis: calc((100% - 60px) / 3);
     padding-bottom: 94px;
+    position: relative;
 }
 .page-foto {
     display: flex;
     align-items: center;
     column-gap: 30px;
+}
+.box {
+    position: absolute;
+    top: 224px;
+}
+.box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: rgba(47, 48, 58, 0.8);
 }
 
 /*---section team---*/
