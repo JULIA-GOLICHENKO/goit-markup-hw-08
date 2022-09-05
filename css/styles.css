@@ -96,6 +96,7 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
     position: relative;
+    
 }
 .menu-link-studio::after {
     content:'';
@@ -107,13 +108,9 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
-    opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-link-studio:hover::after,
-.menu-link-studio:focus::after {
-    opacity: 1;
-}
+
 .menu-link-portfolio {
     font-weight: 500;
     font-size: 14px;
@@ -134,13 +131,9 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
-    opacity: 0;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-link-portfolio:hover::after,
-.menu-link-portfolio:focus::after {
-    opacity: 1;
-}
+
 .contack-header {
     display: flex;
     align-items: center;
