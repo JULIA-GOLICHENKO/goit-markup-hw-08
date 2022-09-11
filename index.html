@@ -411,8 +411,9 @@
               <li class="links-list">
                 <a href="#" class="links-footer">
                   <svg lang="en" aria-label="facebook" class="link-svg-footer">
-                  <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-facebook-1-2"></use>
-                </svg></a>
+                    <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-facebook-1-2"></use>
+                  </svg>
+                </a>
               </li>
               <li class="links-list">
                 <a href="#" class="links-footer" >
@@ -427,10 +428,14 @@
             <p class="footer-link">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</p>
             <div class="form-mail">
               <form class="footer-mail">
-                <input type="text" class="footer-mail-form-input" name="" placeholder="E-mail">
+                <input 
+                  type="text" 
+                  class="footer-mail-form-input" 
+                  name="user-email" 
+                  placeholder="E-mail">
               </form>
               <button class="modal-open-btn-footer" type="button" data-modal-open>
-                <p class="footer-btn">Підписатися</p>
+                <span class="text-icon-send">Підписатися</span>
                 <svg class="icon-send">
                   <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-send"></use>
                 </svg>
@@ -455,7 +460,7 @@
               <input type="text" class="contact-form-input" required pattern="[a-zA-Zа-яА-ЯіІїЇ`']+" name="user-name">
               <span class="modal-form-input-icon">
                 <svg class="icon-form">
-                  <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-person"
+                  <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-person"></use>
                 </svg>
               </span>
             </span>
@@ -466,7 +471,7 @@
               <input type="tel" class="contact-form-input" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx" name="name-phone" >
               <span class="modal-form-input-icon">
                 <svg class="icon-form">
-                  <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-phone"
+                  <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-phone"></use>
                 </svg>
               </span>
             </span>
@@ -474,22 +479,30 @@
           <label class="modal-form-field">
             <span class="modal-form-field-desc">Пошта</span>
             <span class="modal-form-input-wrapper">
-              <input type="email" class="contact-form-input" required placeholder="">
+              <input type="email" class="contact-form-input" required placeholder="" name="user-email">
               <span class="modal-form-input-icon">
                 <svg class="icon-form">
-                  <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-email"
+                  <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-email"></use>
                 </svg>
               </span>
             </span>
           </label>
           <label class="modal-form-field">
             <span class="modal-form-field-desc">Коментар</span>
-            <textarea name="user-message" class="contact-form-message" placeholder="Введіть текст"></textarea>
+            <textarea 
+              name="user-message" 
+              class="contact-form-message" 
+              placeholder="Введіть текст"></textarea>
           </label>
-          
+          <label class="modal-form-check-field">
+            <input type="checkbox" class="modal-form-check" name="user-name-policy" required />
+            <svg class="modal-form-own-checkbox">
+              <use class="modal-form-own-checkbox-icon" href="./images/SVG-спрайт/symbol-defs (4).svg#icon-check"></use>
+            </svg>  
+            Погоджуюся з розсилкою та приймаю&nbsp;<a href="">Умови договору</a>
+          </label>
+          <button type="submit" class="contact-form-submit">Відправити</button>
         </form>
-        <button class="contact-form-btn" type="submit" data-modal-open>Відправити</button>
-        
       </div>
     </div>
     <script src="./js/modal.js"></script>
