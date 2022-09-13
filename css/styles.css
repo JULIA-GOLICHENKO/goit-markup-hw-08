@@ -765,10 +765,13 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin: 12px;
+    margin-bottom: 12px;
 }
 .modal-form-field {
     margin-bottom: 10px;
+}
+.modal-form-field-coment {
+    margin-bottom: 20px;
 }
 .modal-form-field-desc {
     display: block;
@@ -818,6 +821,7 @@ body {
     height: 18px;
 }
 .contact-form-message {
+    display: block;
     height: 120px;
     width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -846,6 +850,7 @@ body {
 .modal-form-check-field {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
     font-size: 14px;
     line-height: 24px;
