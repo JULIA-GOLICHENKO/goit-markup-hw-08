@@ -1,0 +1,37 @@
+.page-contact-header {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.contack-header {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+    fill: #757575;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
+    
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        fill: var(--accent-color);
+    }
+}
+.icon-mail {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    padding-bottom: 0;
+}
+.icon-tel {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    padding-bottom: 0;
+}
+

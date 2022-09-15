@@ -1,2 +1,27 @@
-@import './sass/utils/variables';
-@import './components/_common';
+@import './utils/variables';
+
+@import './base/common';
+@import './base/container';
+@import './base/section';
+
+@import './components/modal-open-btn';
+@import './components/logo-header';
+@import './components/section-title';
+@import './components/portfolio-btn';
+@import './components/backdrop';
+@import './components/modal-window';
+@import './components/modal-form';
+@import './components/footer-input';
+@import './components/logo-footer';
+    
+@import './layout/contack-header';
+@import './layout/menu-header';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/section-foto';
+@import './layout/customers';
+@import './layout/footer';
+@import './layout/contact-footer';
+@import './layout/team';
+@import './layout/project';
