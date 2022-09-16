@@ -1,9 +1,9 @@
-.page-contact-header {
+.top-header__contact-page {
     display: flex;
     align-items: center;
     column-gap: 50px;
 }
-.contack-header {
+.top-header__contact {
     display: flex;
     align-items: center;
     font-weight: 500;
@@ -22,13 +22,13 @@
         fill: var(--accent-color);
     }
 }
-.icon-mail {
+.contact__icon-mail {
     width: 16px;
     height: 12px;
     margin-right: 10px;
     padding-bottom: 0;
 }
-.icon-tel {
+.contact__icon-tel {
     width: 10px;
     height: 16px;
     margin-right: 10px;
