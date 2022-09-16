@@ -11,14 +11,17 @@
     padding-bottom: 20px;
     padding-right: 24px;
 }
-.project:not(:nth-child(3n)) {
-    margin-right: 30px;
-}
-.project:not(:nth-last-child(-n + 3)) {
-    margin-bottom: 30px;
-}
+
 .project {
     flex-basis: calc((100% - 60px) / 3);
+
+    &:not(:nth-child(3n)) {
+        margin-right: 30px;
+    }
+
+    &:not(:nth-last-child(-n + 3)) {
+        margin-bottom: 30px;
+    }
 }
 .menu-project {
     display: block;
@@ -49,10 +52,11 @@
     overflow: auto;
     transform: translateY(101%);
     transition: transform var(--transition-dur-and-func);
-}
-.menu-project:hover .overlay,
-.menu-project:focus .overlay {
-    transform: translateY(0%);
+
+    .menu-project:hover &,
+    .menu-project:focus & {
+        transform: translateY(0%);
+    }
 }
 
 .name-group {
