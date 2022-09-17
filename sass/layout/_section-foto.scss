@@ -1,9 +1,9 @@
-.foto {
+.page-foto__foto {
     flex-basis: calc((100% - 60px) / 3);
     padding-bottom: 94px;
     position: relative;
 }
-.page-foto {
+.section-foto__page-foto {
     display: flex;
     align-items: center;
     column-gap: 30px;
@@ -12,7 +12,7 @@
     position: absolute;
     top: 224px;
 }
-.box-text {
+.box__text {
     display: flex;
     justify-content: center;
     align-items: center;
