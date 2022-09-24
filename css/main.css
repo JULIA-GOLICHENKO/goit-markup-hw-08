@@ -41,13 +41,32 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 738px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -525,19 +544,28 @@ body {
   transition: opacity var(--transition-dur-and-func);
 }
 
-.top-header {
-  border-bottom: 1px solid #ECECEC;
+.menu {
+  display: none;
 }
 
-.top-line {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.top-header__modal-btn {
+  display: none;
 }
 
-.top-nav {
-  display: flex;
-  align-items: center;
+.top-header__contact-page {
+  display: none;
+}
+
+.modal-open-mobile-btn {
+  line-height: 0;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.modal-open-mobile-btn__icon {
+  width: 40px;
+  height: 40px;
 }
 
 .images {
@@ -792,7 +820,6 @@ body {
   display: flex;
   align-items: center;
   column-gap: 30px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team__name-employee {
