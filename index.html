@@ -19,7 +19,7 @@
   <body>
     <!--HEADER-->
     <header class="top-header">
-      <div class="container top-line">
+      <div class="container top-line__container">
         <nav class="top-nav">
           <a class="logo link" href="./index.html"
             ><span class="blu">Web</span>Studio</a
@@ -36,16 +36,23 @@
             </li>
           </ul>
         </nav>
-        <button type="button" class="top-header__modal-btn modal-open-mobile-btn>
+        <button type="button" class="modal-open-mobile-btn" data-menu-open>
           <svg class="modal-open-mobile-btn__icon">
-            <use href="./images/SVG-спрайт/menu_40px.svg#icon-menu-mobile"></use>
+            <use
+              href="./images/SVG-спрайт/symbol-defs (4).svg#icon-burger"
+            ></use>
           </svg>
         </button>
         <ul class="top-header__contact-page list">
           <li class="contact">
-            <a class="top-header__contact link" href="mailoto:info@devstudio.com">
+            <a
+              class="top-header__contact link"
+              href="mailoto:info@devstudio.com"
+            >
               <svg class="contact__icon-mail">
-                <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-envelope"></use>
+                <use
+                  href="./images/SVG-спрайт/symbol-defs (4).svg#icon-envelope"
+                ></use>
               </svg>
               info@devstudio.com</a
             >
@@ -53,14 +60,62 @@
           <li class="contact">
             <a class="top-header__contact link" href="tel:+380961111111">
               <svg class="contact__icon-tel">
-                <use href="./images/SVG-спрайт/symbol-defs (4).svg#icon-smartphone-1"></use>
-              </svg>+38 096 111 11 11</a
+                <use
+                  href="./images/SVG-спрайт/symbol-defs (4).svg#icon-smartphone-1"
+                ></use></svg
+              >+38 096 111 11 11</a
             >
           </li>
         </ul>
       </div>
+      <div class="mobile-menu is-open" data-menu>
+        <div class="container mobile-menu__container">
+          <button type="button" class="mobile-menu__close-btm" data-menu-close>
+            <svg class="mobile-menu__close-icon">
+              <use
+                href="./images/SVG-спрайт/symbol-defs (4).svg#icon-close"
+              ></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu__list list">
+            <li class="mobile-menu__item">
+              <a class="link" href="">Студія</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a class="link" href="">Контакти</a>
+            </li>
+          </ul>
+          <ul class="mobail-menu__contact list">
+            <li class="contact__mobile-tel">
+              <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+            <li class="contact__mobile-mail">
+              <a class="link" href="mailoto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobail-menu__links list">
+            <li class="links__link-mobile line">
+              <a href="#" class="link">Instagram</a>
+            </li>
+            <li class="links__link-mobile line">
+              <a href="#" class="link">Twitter</a>
+            </li>
+            <li class="links__link-mobile line">
+              <a href="#" class="link">Facebook</a>
+            </li>
+            <li class="links__link-mobile">
+              <a href="#" class="link">LinkedIn</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <!--MAIN-->
+    <!--MAIN   >
     <main>
       <section class="section-post img-overlay">
         <div class="container">
@@ -364,6 +419,7 @@
         </div>
       </section>
     </main>
+     <!--FOOTER>
     <footer class="page-footer">
       <div class="container">
         <div class="container-footer">
@@ -504,6 +560,8 @@
         </form>
       </div>
     </div>
+    <!--SKRIPT-->
+    <script scr="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

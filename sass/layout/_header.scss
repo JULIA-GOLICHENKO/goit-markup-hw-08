@@ -1,30 +1,33 @@
 .menu {
     display: none;
 }
-.top-header__modal-btn {
-    display: none;
-}
 .top-header__contact-page {
     display: none;
+}
+.top-line__container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.top-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .modal-open-mobile-btn {
     line-height: 0;
     border: none;
-    background-color: transparent;
     padding: 0;
-    
+    background-color: transparent;
 }
 .modal-open-mobile-btn__icon {
-    
     width: 40px;
     height: 40px;
 }
 
-
 //    .top-header {
 //        border-bottom: 1px solid#ECECEC;
 //    }
-//   .top-line {
+//  .top-line__container {
 //        display: flex;
 //        align-items: center;
 //        justify-content: space-between;
