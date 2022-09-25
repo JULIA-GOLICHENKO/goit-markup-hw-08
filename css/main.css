@@ -225,17 +225,17 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .section__title-features {
+  .section__title-foto {
     display: none;
   }
 }
 @media screen and (min-width: 768px) {
-  .section__title-features {
+  .section__title-foto {
     display: none;
   }
 }
 @media screen and (min-width: 1200px) {
-  .section__title-features {
+  .section__title-foto {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -1135,33 +1135,86 @@ body {
     background: rgba(47, 48, 58, 0.8);
   }
 }
-.customers {
-  display: flex;
-  align-items: center;
-  column-gap: 30px;
+@media screen and (max-width: 767px) {
+  .customers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .client-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border-color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
+  }
+  .client-links:hover, .client-links:focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+  }
+  .client-logo {
+    width: 106px;
+    height: 60px;
+  }
 }
-
-.client-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 92px;
-  fill: #AFB1B8;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-  transition: border-color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
+@media screen and (min-width: 768px) {
+  .customers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .client-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border-color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
+  }
+  .client-links:hover, .client-links:focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+  }
+  .client-logo {
+    width: 106px;
+    height: 60px;
+  }
 }
-.client-links:hover, .client-links:focus {
-  border-color: var(--accent-color);
-  fill: var(--accent-color);
+@media screen and (min-width: 1200px) {
+  .customers {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+  }
+  .client-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border-color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
+  }
+  .client-links:hover, .client-links:focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+  }
+  .client-logo {
+    width: 106px;
+    height: 60px;
+  }
 }
-
-.client-logo {
-  width: 106px;
-  height: 60px;
-}
-
 .page-footer {
   display: flex;
   background: #2F303A;
@@ -1249,6 +1302,69 @@ body {
   color: var(--accent-color);
 }
 
+@media screen and (max-width: 767px) {
+  .page-team {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .section-team {
+    background: #F5F4FA;
+  }
+  .page-team__team {
+    flex-basis: calc((100% - 90px) / 4);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background: #fff;
+    width: 450px;
+  }
+  .team__name-employee {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 30px;
+    margin-bottom: 10px;
+  }
+  .team__department {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 16px;
+  }
+  .team__social-links {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    gap: 10px;
+  }
+  .links-list {
+    display: inline-block;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #AFB1B8;
+    transition: background-color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
+  }
+  .links:hover, .links:focus {
+    background-color: var(--accent-color);
+    fill: white;
+  }
+  .link-svg {
+    width: 20px;
+    height: 20px;
+  }
+}
 .section-team {
   background: #F5F4FA;
 }
