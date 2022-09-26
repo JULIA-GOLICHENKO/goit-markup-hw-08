@@ -168,37 +168,79 @@
           <h2 class="section__title-foto">Чим ми займаємося</h2>
           <ul class="section-foto__page-foto list">
             <li class="page-foto__foto">
-              <img
-                class="images"
-                src="./images/img-1.jpg"
-                alt="Програмуємо"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/foto/box1/1box-desktop.jpg    1x,
+                    ./images/foto/box1/1box-desktop@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/foto/box1/1box-desktop.webp    1x,
+                    ./images/foto/box1/1box-desktop@2x.webp 2x
+                  "
+                />
+                <img
+                  class="images"
+                  src="./images/foto/img-1.jpg"
+                  alt="Програмуємо"
+                />
+              </picture>
               <div class="box">
                 <p class="box__text">ДЕСКТОПНІ ДОДАТКИ</p>
               </div>
             </li>
             <li class="page-foto__foto">
-              <img
-                class="images"
-                src="./images/img-2.jpg"
-                alt="Налаштовуємо"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/foto/box2/2box-desktop.jpg    1x,
+                    ./images/foto/box2/2box-desktop@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/foto/box2/2box-desktop.webp    1x,
+                    ./images/foto/box2/2box-desktop@2x.webp 2x
+                  "
+                />
+                <img
+                  class="images"
+                  src=".//images/foto/img-2.jpg"
+                  alt="Налаштовуємо"
+                />
+              </picture>
               <div class="box">
                 <p class="box__text">МОБІЛЬНІ ДОДАТКИ</p>
               </div>
             </li>
             <li class="page-foto__foto">
-              <img
-                class="images"
-                src="./images/img-3.jpg"
-                alt="Оформлюємо"
-                width="370"
-                height="294"
-              />
+              <picture>
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/foto/box3/3box-desktop.jpg    1x,
+                    ./images/foto/box3/3box-desktop@2x.jpg 2x
+                  "
+                />
+                <source
+                  media="(min-width: 1200px)"
+                  srcset="
+                    ./images/foto/box3/3box-desktop.webp    1x,
+                    ./images/foto/box3/3box-desktop@2x.webp 2x
+                  "
+                />
+                <img
+                  class="images"
+                  src="./images/foto/img-3.jpg"
+                  alt="Оформлюємо"
+                />
+              </picture>
               <div class="box">
                 <p class="box__text">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
               </div>
