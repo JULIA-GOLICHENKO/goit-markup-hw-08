@@ -2,9 +2,12 @@
 @media screen and (max-width:767px) {
     .customers {
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 30px;
+        max-width: 480px;
     }
 
     .client-links {
@@ -35,9 +38,12 @@
 @media screen and (min-width: 768px) {
     .customers {
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 30px;
+        max-width: 768px;
     }
 
     .client-links {

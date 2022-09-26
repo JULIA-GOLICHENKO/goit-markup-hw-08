@@ -3,6 +3,7 @@
     .page-features {
         display: block;
         padding-bottom: 30px;
+        max-width: 480px;
     }
 
     .paragraph-features__name {
@@ -64,20 +65,23 @@
 @media screen and (min-width: 768px) {
     .page-features {
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 30px;
+        max-width: 768px;
+        
+        
     }
 
     .page-features__paragraph-features {
         flex-basis: calc((100% - 90px) / 4);
-
         
-
         &::before {
             display: block;
             height: 120px;
-            width: 270px;
+            width: 354px;
             background-color: #F5F4FA;
             content: "";
             background-repeat: no-repeat;
@@ -159,8 +163,10 @@
 
     .page-features {
         display: flex;
+        justify-content: space-between;
         column-gap: 30px;
         padding-top: 0;
+        width: 1170px;
         
     }
 
