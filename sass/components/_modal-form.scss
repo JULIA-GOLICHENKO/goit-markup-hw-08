@@ -169,8 +169,9 @@
 // 768px -
 @media screen and (min-width: 768px) {
     .contact-form {
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        width: 370px;
     }
     .text-form {
         font-weight: 700;
@@ -325,6 +326,7 @@
     .contact-form {
         display: flex;
         flex-direction: column;
+        width: 448px;
     }
     .text-form {
         font-weight: 700;

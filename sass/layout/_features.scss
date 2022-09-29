@@ -89,6 +89,7 @@
             background-position: center;
             background-size: 70px;
             border-radius: 4px;
+            margin-bottom: 30px;
         }
     }
 
@@ -165,6 +166,7 @@
     .page-features {
         display: flex;
         justify-content: space-between;
+        align-items: flex-start;
         column-gap: 30px;
         padding-top: 0;
         max-width: 1170px;

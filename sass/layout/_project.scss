@@ -2,9 +2,7 @@
 @media screen and (max-width:767px) {
     .page-project {
         display: block;
-        flex-wrap: wrap;
         max-width: 480px;
-        margin-bottom: 60px;
     }
 
     .group {
@@ -21,8 +19,7 @@
         flex-basis: calc((100% - 60px) / 3);
         width: 450px;
         height: 404px;
-
-        
+        margin-bottom: 30px;
     }
 
     .project__menu {
@@ -102,6 +99,7 @@
         padding-top: 20px;
         padding-bottom: 20px;
         padding-right: 24px;
+        flex-grow: 1;
     }
 
     .page-project__project {
@@ -110,7 +108,8 @@
     }
 
     .project__menu {
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 354px;
         height: 440px;
         transition: box-shadow var(--transition-dur-and-func);
@@ -182,6 +181,7 @@
         padding-top: 20px;
         padding-bottom: 20px;
         padding-right: 24px;
+        flex-grow: 1;
     }
 
     .page-project__project {
@@ -192,7 +192,8 @@
         }
     }
     .project__menu {
-        display: block;
+        display: flex;
+        flex-direction: column;
         transition: box-shadow var(--transition-dur-and-func);
        
 
