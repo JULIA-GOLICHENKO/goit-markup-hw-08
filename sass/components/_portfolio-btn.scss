@@ -5,9 +5,11 @@
         flex-wrap: wrap;
         align-items: center;
         gap: 8px;
-        justify-content: flex-start;
         margin-bottom: 30px;
         max-width: 480px;
+    }
+    .page-portfolio-btn__portfolio-btn {
+        margin-bottom: 15px;
     }
     .portfolio-open-btn-all {
         font-weight: 500;
@@ -19,8 +21,6 @@
         padding: 6px 25px 6px 25px;
         border-radius: 4px;
         border-color: transparent;
-        margin-bottom: 15px;
-        
     }
     .portfolio-open-btn {
         font-weight: 500;
@@ -33,7 +33,6 @@
         background: #F5F4FA;
         border-radius: 4px;
         border-color: transparent;
-        margin-bottom: 15px;
     }
     .btn {
         transition: color var(--transition-dur-and-func), background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);

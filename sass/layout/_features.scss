@@ -2,7 +2,6 @@
 @media screen and (max-width:767px) {
     .page-features {
         display: block;
-        padding-bottom: 30px;
         max-width: 480px;
     }
 
@@ -23,13 +22,17 @@
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #757575
+        
+    }
+    .page-features__paragraph-features {
+        margin-bottom: 30px;
     }
     .page-features__paragraph-features {
         flex-basis: calc((100% - 90px) / 4);
         width: 450px;
-        height: 226px;
+        column-gap: 30px;
         
-
+        
         &::before {
             display: block;
             height: 120px;

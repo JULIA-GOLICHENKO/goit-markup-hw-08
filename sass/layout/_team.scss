@@ -2,7 +2,6 @@
 @media screen and (max-width:767px) {
     .page-team {
         display: block;
-        margin-bottom: 30px;
         max-width: 480px;
     }
     .section-team {
@@ -14,6 +13,8 @@
         border-radius: 0px 0px 4px 4px;
         background:#fff;
         width: 450px;
+        margin-bottom: 30px;
+        
     }
     .team__name-employee {
         font-weight: 500;
@@ -37,12 +38,12 @@
     }
 
     .team__social-links {
-        display: inline-block;
+        display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 30px;
         gap: 10px;
-        padding-left: 118px;
+        
     }
 
     .links-list {
@@ -198,7 +199,7 @@
     }
 
     .team__social-links {
-        display: inline-block;
+        display: flex;
         justify-content: center;
         align-items: center;
         padding-bottom: 30px;
