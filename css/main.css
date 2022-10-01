@@ -146,6 +146,18 @@ body {
   .mobile-menu__link:hover, .mobile-menu__link:focus {
     color: var(--accent-color);
   }
+  .mobile-menu__link-studio {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    transition: color var(--transition-dur-and-func);
+  }
+  .mobile-menu__link-studio:hover, .mobile-menu__link-studio:focus {
+    color: var(--accent-color);
+    border-radius: 2px;
+  }
   .mobail-menu__contact {
     margin-bottom: 64px;
   }
@@ -1047,6 +1059,8 @@ body {
 @media screen and (min-width: 1200px) {
   .mail-input {
     width: 570px;
+    margin-left: 0;
+    margin-right: 0;
   }
   .footer-mail {
     display: flex;
@@ -1262,6 +1276,7 @@ body {
   .top-header {
     padding-top: 10px;
     padding-bottom: 10px;
+    border-bottom: 1px solid #ECECEC;
   }
   .top-line__container {
     display: flex;
@@ -1399,7 +1414,7 @@ body {
 }
 @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (max-width: 767px) and (min-resolution: 192dpi) and (max-width: 767px), screen and (max-width: 767px) and (min-resolution: 2dppx) and (max-width: 767px) {
   .img-overlay {
-    background-image: url(../images/hero/hero-mobile@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-mobile@2x.jpg);
   }
 }
 @media screen and (max-width: 767px) {
@@ -1440,7 +1455,7 @@ body {
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-width: 768px) and (min-resolution: 2dppx) and (min-width: 768px) {
   .img-overlay {
-    background-image: url(../images/hero/hero-tablet@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero-tablet@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -1481,7 +1496,7 @@ body {
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 1200px) {
   .img-overlay {
-    background-image: url(../images/hero/hero@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero@2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1849,15 +1864,16 @@ body {
     flex-wrap: wrap;
     margin-left: 0;
     margin-right: 0;
-    width: 768px;
+    width: 738px;
   }
   .footer-list {
     margin-left: 76px;
     margin-right: 165px;
     margin-bottom: 60px;
+    text-align: center;
   }
   .footer-social-links {
-    margin-right: 89px;
+    margin-right: 80px;
     text-align: center;
   }
   .social-links-footer {
@@ -2200,13 +2216,6 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
     margin-bottom: 16px;
-  }
-  .team__social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 30px;
-    gap: 10px;
   }
   .links-list {
     display: inline-block;

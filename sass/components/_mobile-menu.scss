@@ -71,6 +71,21 @@
         }
     }
 
+    .mobile-menu__link-studio {
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 1.18;
+        letter-spacing: 0.02em;
+        color: #2196F3;
+        transition: color var(--transition-dur-and-func);
+    
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+            border-radius: 2px;
+        }
+    }
+
     .mobail-menu__contact {
         margin-bottom: 64px;
     }
